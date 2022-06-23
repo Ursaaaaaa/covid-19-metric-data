@@ -16,10 +16,10 @@ const Continent = ({ continent: { continent, cases } }) => (
       className="continentImage"
     />
     <div className="continentText">
-      <h4 className="self-center md:self-end">
-        <span className="text-2xl">{`${continent}`}</span>
+      <h4 className="">
+        <span className="">{`${continent}`}</span>
       </h4>
-      <span className="text-xl">{cases.toLocaleString()}</span>
+      <span className="">{cases.toLocaleString()}</span>
     </div>
   </Link>
 );

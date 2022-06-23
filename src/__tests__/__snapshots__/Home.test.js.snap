@@ -74,16 +74,16 @@ Object {
               class="continentText"
             >
               <h4
-                class="self-center md:self-end"
+                class=""
               >
                 <span
-                  class="text-2xl"
+                  class=""
                 >
                   Asia
                 </span>
               </h4>
               <span
-                class="text-xl"
+                class=""
               >
                 11,111
               </span>
@@ -121,16 +121,16 @@ Object {
               class="continentText"
             >
               <h4
-                class="self-center md:self-end"
+                class=""
               >
                 <span
-                  class="text-2xl"
+                  class=""
                 >
                   Africa
                 </span>
               </h4>
               <span
-                class="text-xl"
+                class=""
               >
                 22,222
               </span>
@@ -168,16 +168,16 @@ Object {
               class="continentText"
             >
               <h4
-                class="self-center md:self-end"
+                class=""
               >
                 <span
-                  class="text-2xl"
+                  class=""
                 >
                   Europe
                 </span>
               </h4>
               <span
-                class="text-xl"
+                class=""
               >
                 33,333
               </span>
@@ -215,16 +215,16 @@ Object {
               class="continentText"
             >
               <h4
-                class="self-center md:self-end"
+                class=""
               >
                 <span
-                  class="text-2xl"
+                  class=""
                 >
                   Australia-Oceania
                 </span>
               </h4>
               <span
-                class="text-xl"
+                class=""
               >
                 44,444
               </span>
@@ -262,16 +262,16 @@ Object {
               class="continentText"
             >
               <h4
-                class="self-center md:self-end"
+                class=""
               >
                 <span
-                  class="text-2xl"
+                  class=""
                 >
                   North America
                 </span>
               </h4>
               <span
-                class="text-xl"
+                class=""
               >
                 55,555
               </span>
@@ -309,16 +309,16 @@ Object {
               class="continentText"
             >
               <h4
-                class="self-center md:self-end"
+                class=""
               >
                 <span
-                  class="text-2xl"
+                  class=""
                 >
                   South America
                 </span>
               </h4>
               <span
-                class="text-xl"
+                class=""
               >
                 66,666
               </span>
@@ -398,16 +398,16 @@ Object {
             class="continentText"
           >
             <h4
-              class="self-center md:self-end"
+              class=""
             >
               <span
-                class="text-2xl"
+                class=""
               >
                 Asia
               </span>
             </h4>
             <span
-              class="text-xl"
+              class=""
             >
               11,111
             </span>
@@ -445,16 +445,16 @@ Object {
             class="continentText"
           >
             <h4
-              class="self-center md:self-end"
+              class=""
             >
               <span
-                class="text-2xl"
+                class=""
               >
                 Africa
               </span>
             </h4>
             <span
-              class="text-xl"
+              class=""
             >
               22,222
             </span>
@@ -492,16 +492,16 @@ Object {
             class="continentText"
           >
             <h4
-              class="self-center md:self-end"
+              class=""
             >
               <span
-                class="text-2xl"
+                class=""
               >
                 Europe
               </span>
             </h4>
             <span
-              class="text-xl"
+              class=""
             >
               33,333
             </span>
@@ -539,16 +539,16 @@ Object {
             class="continentText"
           >
             <h4
-              class="self-center md:self-end"
+              class=""
             >
               <span
-                class="text-2xl"
+                class=""
               >
                 Australia-Oceania
               </span>
             </h4>
             <span
-              class="text-xl"
+              class=""
             >
               44,444
             </span>
@@ -586,16 +586,16 @@ Object {
             class="continentText"
           >
             <h4
-              class="self-center md:self-end"
+              class=""
             >
               <span
-                class="text-2xl"
+                class=""
               >
                 North America
               </span>
             </h4>
             <span
-              class="text-xl"
+              class=""
             >
               55,555
             </span>
@@ -633,16 +633,16 @@ Object {
             class="continentText"
           >
             <h4
-              class="self-center md:self-end"
+              class=""
             >
               <span
-                class="text-2xl"
+                class=""
               >
                 South America
               </span>
             </h4>
             <span
-              class="text-xl"
+              class=""
             >
               66,666
             </span>
