@@ -23,7 +23,7 @@ Additional description about the project and its features.
 
 ## Project Description
 
-Click here to watch a [video]() that gives a brief description of the project
+Click here to watch a [video](https://www.loom.com/share/61d799f7bb4646b8a3e6b1c3555d69dd) that gives a brief description of the project
 
 ## Getting Started with Create React App
 
