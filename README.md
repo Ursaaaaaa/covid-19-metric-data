@@ -4,8 +4,9 @@
 
 > This is a webapp that display metric data from an API for covid 19 cases globally
 
-![image]()
-![image]()
+![image](https://github.com/ramrod433/covid-19-metric-data/blob/covid-metric-data/src/images/home.png)
+![image](https://github.com/ramrod433/covid-19-metric-data/blob/covid-metric-data/src/images/details.png)
+![image](https://github.com/ramrod433/covid-19-metric-data/blob/covid-metric-data/src/images/mobile.png)
 
 Additional description about the project and its features.
 
