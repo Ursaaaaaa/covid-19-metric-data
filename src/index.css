@@ -19,6 +19,16 @@ body {
  color: #FAF6FB;
 }
 
+.icons {
+  padding-top: 20px;
+  right: 40px;
+  display: flex;
+  color: #FAF6FB;
+  font-size: larger;
+  font-family: 'Lato', sans-serif;
+  gap: 20px;
+}
+
 .title {
   justify-self: center;
   color: #FAF6FB;

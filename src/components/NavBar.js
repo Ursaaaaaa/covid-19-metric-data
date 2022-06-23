@@ -1,5 +1,7 @@
 import { IoIosArrowBack } from 'react-icons/io';
 import { useNavigate, useLocation } from 'react-router-dom';
+import { BsMic } from 'react-icons/bs';
+import { AiOutlineSetting } from 'react-icons/ai';
 
 const Nav = () => {
   const navigate = useNavigate();
@@ -18,6 +20,11 @@ const Nav = () => {
       )}
 
       <h1 className="title">Covid Tracker</h1>
+
+      <div className="icons">
+        <BsMic />
+        <AiOutlineSetting />
+      </div>
     </nav>
   );
 };
