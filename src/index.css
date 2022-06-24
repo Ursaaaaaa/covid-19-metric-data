@@ -131,7 +131,6 @@ ol {
 }
 
 @media (max-width: 768px) {
-
   .navContainer {
     display: flex;
     justify-content: space-evenly;
@@ -142,13 +141,13 @@ ol {
     font-family: 'Lato', sans-serif;
     align-content: center;
   }
-  
+
   .backButton {
     color: #faf6fb;
     font-size: 25px;
     padding-top: 15px;
   }
-  
+
   .icons {
     padding-top: 15px;
     display: flex;
@@ -157,7 +156,7 @@ ol {
     font-family: 'Lato', sans-serif;
     gap: 20px;
   }
-  
+
   .title {
     color: #faf6fb;
     padding-top: 15px;
@@ -171,20 +170,20 @@ ol {
     margin: 0 30px;
     max-width: 100vw;
   }
-  
+
   .continentImage {
     width: 50%;
     max-height: 50%;
     opacity: 0.5;
   }
-  
+
   .arrowButton {
     display: flex;
     align-self: flex-start;
     font-family: 'Lato', sans-serif;
     color: #faf6fb;
   }
-  
+
   .continentText {
     display: flex;
     flex-direction: column;
@@ -192,28 +191,18 @@ ol {
     font-family: 'Lato', sans-serif;
     color: #faf6fb;
   }
-  
+
   .continentDetails {
     display: flex;
     justify-content: center;
     gap: 20px;
   }
-  
+
   .continentCount {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding-top: 40px;
-    font-family: 'Lato', sans-serif;
-    color: #faf6fb;
-  }
-  
-  .countryContainer {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 40px 0;
-    background-repeat: no-repeat;
-    margin: 0 30px;
     font-family: 'Lato', sans-serif;
     color: #faf6fb;
   }
@@ -227,13 +216,13 @@ ol {
     font-family: 'Lato', sans-serif;
     color: #faf6fb;
   }
-  
+
   .countryDetails {
     background-repeat: no-repeat;
     border-radius: 15px;
     padding-left: 50%;
   }
-  
+
   .countryCount {
     display: flex;
     flex-direction: column;
