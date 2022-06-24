@@ -1,5 +1,6 @@
 import { useSelector } from 'react-redux';
 import CountUp from 'react-countup';
+import { FaSearchLocation } from 'react-icons/fa';
 import { FcGlobe } from 'react-icons/fc';
 import Spinner from './Spinner/Spinner';
 import ContinentList from './ContinentList';
@@ -34,6 +35,20 @@ const Home = () => {
               />
             </div>
           </div>
+          <form className="form">
+            <div className="search-bar">
+              <FaSearchLocation />
+              <div>
+                <input
+                  className="input-area"
+                  type="text"
+                  value={null}
+                  placeholder="Search Here"
+                  onChange={null}
+                />
+              </div>
+            </div>
+          </form>
           <ContinentList continents={continents} />
         </>
       )}
