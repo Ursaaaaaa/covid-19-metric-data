@@ -81,6 +81,10 @@ body {
   padding: 10px;
 }
 
+.searchButton {
+padding: 0 5px;
+}
+
 .arrowButton {
   display: flex;
   align-self: flex-start;

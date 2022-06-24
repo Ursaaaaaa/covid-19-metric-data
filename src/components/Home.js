@@ -55,7 +55,6 @@ const Home = () => {
           </div>
           <form className="form">
             <div className="search-bar">
-              <FaSearchLocation />
               <div>
                 <input
                   className="input-area"
@@ -64,6 +63,7 @@ const Home = () => {
                   placeholder="Search Here"
                   onChange={search}
                 />
+                <FaSearchLocation className="searchButton" />
               </div>
             </div>
           </form>
