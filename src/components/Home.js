@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import CountUp from 'react-countup';
 import { FaSearchLocation } from 'react-icons/fa';
@@ -11,10 +12,27 @@ const Home = () => {
     totalData: { totalCases, totalDeaths },
   } = useSelector((state) => state.covid);
 
+  const [list, setList] = useState(continents);
+  const [searchTerm, setTerm] = useState('');
+  const search = ({ target }) => {
+    const { value } = target;
+    setTerm(value);
+    const filteredList = continents.filter((continent) => {
+      return continent.continent.toLowerCase().includes(value?.toLowerCase());
+    });
+    if (filteredList.length > 0) {
+      setList(filteredList);
+    } else {
+      setList(continents);
+    }
+  };
+
+  useEffect(() => { setList(continents); }, [continents]);
+
   return (
     <>
-      {!continents.length && <Spinner />}
-      {continents.length > 0 && (
+      {!list.length && <Spinner />}
+      {list.length > 0 && (
         <>
           <div className="globeDetails">
             <FcGlobe className="globe" />
@@ -42,14 +60,14 @@ const Home = () => {
                 <input
                   className="input-area"
                   type="text"
-                  value={null}
+                  value={searchTerm}
                   placeholder="Search Here"
-                  onChange={null}
+                  onChange={search}
                 />
               </div>
             </div>
           </form>
-          <ContinentList continents={continents} />
+          <ContinentList continents={list} />
         </>
       )}
     </>
