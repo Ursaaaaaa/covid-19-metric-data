@@ -19,7 +19,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://62b5152f55171f1146a5ad2a--delicate-tanuki-2e2a4b.netlify.app/)
 
 ## Project Description
 
