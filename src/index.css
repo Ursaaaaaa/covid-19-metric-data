@@ -73,6 +73,14 @@ body {
   opacity: 0.5;
 }
 
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
 .arrowButton {
   display: flex;
   align-self: flex-start;
@@ -175,16 +183,6 @@ ol {
     width: 50%;
     max-height: 50%;
     opacity: 0.5;
-  }
-
-  .form {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-    padding: 10px;
-    background-color: #d0d4db;
   }
 
   .arrowButton {
